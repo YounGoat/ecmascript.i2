@@ -1,0 +1,40 @@
+{
+    "bin": {
+        "ey": "bin/ey.js"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "mocha": "^3.3.0"
+    },
+    "directories": {},
+    "scripts": {
+        "test": "mocha"
+    },
+    "name": "ey",
+    "version": "0.0.1",
+    "main": "index.js",
+    "keywords": [
+        "unicode",
+        "utf8",
+        "utf16",
+        "utf32",
+        "code-point",
+        "unicode-to-unf8",
+        "unicode-to-unf16",
+        "unicode-to-unf32",
+        "big-endian",
+        "little-endian",
+        "be/le"
+    ],
+    "homepage": "https://github.com/YounGoat/ecmascript.unicoding",
+    "description": "Unicode Toolkit",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/YounGoat/ecmascript.unicoding.git"
+    },
+    "author": {
+        "name": "YounGoat",
+        "email": "youngoat@163.com",
+        "url": "https://youngoat.github.io"
+    }
+}
