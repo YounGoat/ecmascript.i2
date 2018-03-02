@@ -1,7 +1,4 @@
 {
-    "bin": {
-        "ey": "bin/ey.js"
-    },
     "dependencies": {},
     "devDependencies": {
         "mocha": "^3.3.0"
@@ -10,8 +7,8 @@
     "scripts": {
         "test": "mocha"
     },
-    "name": "ey",
-    "version": "0.0.1",
+    "name": "i2",
+    "version": "0.0.2",
     "main": "index.js",
     "keywords": [
         "unicode",
@@ -26,11 +23,11 @@
         "little-endian",
         "be/le"
     ],
-    "homepage": "https://github.com/YounGoat/ecmascript.unicoding",
+    "homepage": "https://github.com/YounGoat/ecmascript.i2",
     "description": "Unicode Toolkit",
     "repository": {
         "type": "git",
-        "url": "https://github.com/YounGoat/ecmascript.unicoding.git"
+        "url": "https://github.com/YounGoat/ecmascript.i2.git"
     },
     "author": {
         "name": "YounGoat",

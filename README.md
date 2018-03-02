@@ -1,5 +1,5 @@
-#	ey
-__Encoding Yard__
+#	i2
+__Character Encoding and Decoding Toolkit__
 
 Collection of character encoding methods.
 
@@ -17,26 +17,26 @@ Collection of character encoding methods.
 ##	Get Started
 
 ```javascript
-const ey = require('ey');
+const i2 = require('i2');
 
-ey.unicode2utf8(20320);
+i2.unicode2utf8(20320);
 // RETURN [0xE4, 0xBD, 0xA0];
 
-ey.unicode2utf16.be(20320);
+i2.unicode2utf16.be(20320);
 // RETURN [0x4F, 0x60]
 
-ey.unicode2utf32.be(20320);
+i2.unicode2utf32.be(20320);
 // RETURN [0x00, 0x00, 0x4F, 0x60]
 ```
 
 ##	API
 
-*	number[] __ey.unicode2utf8__(number *unicode*)
-*	number[] __ey.unicode2utf16__(number *unicode*, "be" | "le" *type* = `"be"`)
-*	number[] __ey.unicode2utf16.be__(number *unicode*)
-*	number[] __ey.unicode2utf16.le__(number *unicode*)
-*	number[] __ey.unicode2utf32__(number *unicode*, "be" | "le" *type* = `"be"`)
-*	number[] __ey.unicode2utf32.be__(number *unicode*)
-*	number[] __ey.unicode2utf32.le__(number *unicode*)
+*	number[] __i2.unicode2utf8__(number *unicode*)
+*	number[] __i2.unicode2utf16__(number *unicode*, "be" | "le" *type* = `"be"`)
+*	number[] __i2.unicode2utf16.be__(number *unicode*)
+*	number[] __i2.unicode2utf16.le__(number *unicode*)
+*	number[] __i2.unicode2utf32__(number *unicode*, "be" | "le" *type* = `"be"`)
+*	number[] __i2.unicode2utf32.be__(number *unicode*)
+*	number[] __i2.unicode2utf32.le__(number *unicode*)
 
 ##  References

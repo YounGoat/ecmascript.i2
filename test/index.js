@@ -7,7 +7,7 @@ const MODULE_REQUIRE = 1
     /* NPM */
     
     /* in-package */
-    , ey = require('..')
+    , i2 = require('..')
     ;
 
 describe('Unicode encoding', () => {
@@ -16,18 +16,18 @@ describe('Unicode encoding', () => {
     // \u4f60\u597d
     
     it('unicode2utf8', () => {
-        assert.deepEqual(ey.unicode2utf8(20320), [0xE4, 0xBD, 0xA0]);
-        assert.deepEqual(ey.unicode2utf8(22909), [0xE5, 0xA5, 0xBD]);
+        assert.deepEqual(i2.unicode2utf8(20320), [0xE4, 0xBD, 0xA0]);
+        assert.deepEqual(i2.unicode2utf8(22909), [0xE5, 0xA5, 0xBD]);
     });
 
     it('unicode2utf16', () => {
-        assert.deepEqual(ey.unicode2utf16.be(20320), [0x4F, 0x60]);
-        assert.deepEqual(ey.unicode2utf16.be(22909), [0x59, 0x7D]);
+        assert.deepEqual(i2.unicode2utf16.be(20320), [0x4F, 0x60]);
+        assert.deepEqual(i2.unicode2utf16.be(22909), [0x59, 0x7D]);
     });
 
     it('unicode2utf32', () => {
-        assert.deepEqual(ey.unicode2utf32(20320), [0x00, 0x00, 0x4F, 0x60]);
-        assert.deepEqual(ey.unicode2utf32(22909), [0x00, 0x00, 0x59, 0x7D]);
+        assert.deepEqual(i2.unicode2utf32(20320), [0x00, 0x00, 0x4F, 0x60]);
+        assert.deepEqual(i2.unicode2utf32(22909), [0x00, 0x00, 0x59, 0x7D]);
     });
     
 });
